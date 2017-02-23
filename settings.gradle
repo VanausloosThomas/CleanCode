@@ -1,27 +1,6 @@
 rootProject.name = 'Part3'
 
 include ':cleanCode1'
-//include ':cleanCode2'
-//include ':cleanCode3'
-//include ':cleanCode4'
-//include ':cleanCode5'
-//include ':cleanCode6'
-//include ':cleanCode7'
-//include ':cleanCode8'
-//include ':cleanCode9'
-//include ':cleanCode10'
-//include ':cleanCode11'
-//include ':cleanCode12'
+
 
 project(':cleanCode1').projectDir = "$rootDir/cleanCode1" as File
-//project(':lab1.2').projectDir = "$rootDir/lab1.2" as File
-//project(':lab1.3').projectDir = "$rootDir/lab1.3" as File
-//project(':lab2.1').projectDir = "$rootDir/lab2.1" as File
-//project(':lab2.2').projectDir = "$rootDir/lab2.2" as File
-//project(':lab2.3').projectDir = "$rootDir/lab2.3" as File
-//project(':lab3.1').projectDir = "$rootDir/lab3.1" as File
-//project(':lab3.2').projectDir = "$rootDir/lab3.2" as File
-//project(':lab3.3').projectDir = "$rootDir/lab3.3" as File
-//project(':lab4.1').projectDir = "$rootDir/lab4.1" as File
-//project(':lab4.2').projectDir = "$rootDir/lab4.2" as File
-//project(':lab4.3').projectDir = "$rootDir/lab4.3" as File
