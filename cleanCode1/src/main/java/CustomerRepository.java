@@ -12,11 +12,10 @@ public class CustomerRepository {
         this.customerList = new ArrayList<>();
     }
 
-    public List<Customer> getAllCutomers(){
+    public List<Customer> getAllCustomers(){
 
         return new ArrayList<>(customerList);
     }
-
 
     public void addCustomer(Customer customer) {
 

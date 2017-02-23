@@ -24,7 +24,7 @@ public class CustomerTest {
     @Test
     public void newCustomer_whenMade_ReturnsACustomerWithTheCorrectName(){
 
-        Assertions.assertThat(testCustomer.getName()).isEqualTo("testName");
+        Assertions.assertThat(testCustomer.getCustomerName()).isEqualTo("testName");
     }
 
     @Test

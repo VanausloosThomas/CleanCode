@@ -12,7 +12,7 @@ public class LoyaltyCard {
     }
 
     public String getBarcode() {
-        return new String(barcode);
+        return this.barcode;
     }
 
     public int getBonusPoints() {
