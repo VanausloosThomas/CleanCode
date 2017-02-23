@@ -1,6 +1,1 @@
 rootProject.name = 'Part3'
-
-include ':cleanCode1'
-
-
-project(':cleanCode1').projectDir = "$rootDir/cleanCode1" as File
