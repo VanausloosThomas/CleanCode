@@ -1,3 +1,5 @@
+package be.cegeka.customers;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,19 +8,14 @@ import java.util.List;
  */
 public class CustomerRepository {
 
-    private List<Customer> customerList;
-
-    public CustomerRepository() {
-        this.customerList = new ArrayList<>();
-    }
+    private List<Customer> customerList = new ArrayList<>();
 
     public List<Customer> getAllCustomers(){
-
         return new ArrayList<>(customerList);
     }
 
     public void addCustomer(Customer customer) {
-
         customerList.add(customer);
     }
+
 }

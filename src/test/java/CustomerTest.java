@@ -1,3 +1,5 @@
+import be.cegeka.customers.Customer;
+import be.cegeka.customers.LoyaltyCard;
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,13 +19,11 @@ public class CustomerTest {
 
     @Test
     public void newCustomer_returnsACustomerClass(){
-
         Assertions.assertThat(testCustomer.getClass()).isEqualTo(Customer.class);
     }
 
     @Test
     public void newCustomer_whenMade_ReturnsACustomerWithTheCorrectName(){
-
         Assertions.assertThat(testCustomer.getCustomerName()).isEqualTo("testName");
     }
 

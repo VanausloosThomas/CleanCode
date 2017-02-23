@@ -1,3 +1,5 @@
+package be.cegeka.customers;
+
 import com.sun.org.apache.xpath.internal.operations.String;
 
 import java.time.LocalDate;

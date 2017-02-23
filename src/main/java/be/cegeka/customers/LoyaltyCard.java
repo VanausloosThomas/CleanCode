@@ -1,3 +1,5 @@
+package be.cegeka.customers;
+
 /**
  * Created by thomasva on 23/02/2017.
  */
